@@ -1,0 +1,29 @@
+// JAVA SWITCH CASE STATEMENTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+import java.util.Scanner;
+public class FirstExample {
+    static Scanner na = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        char option;
+        System.out.print("The current president of Nigeria is ___ (a) Buhari (b) Tinubu (c) Jonathan (d) Obasanjo: ");
+        option = na.next().charAt(0);
+
+        switch (option) {
+            case 'a':
+                System.out.println("You missed, it's not Buhari");
+                break;
+            case 'b':
+                System.out.println("Congratulations, you are correct");
+                break;
+            case 'c':
+                System.out.println("You missed, it's not Jonathan");
+                break;
+            case 'd':
+                System.out.println("You missed, it's not Obasanjo");
+                break;
+            default:
+                System.out.println("Invalid option entered");
+                break;
+        }
+    }
+}
