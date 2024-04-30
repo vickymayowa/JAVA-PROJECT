@@ -1,26 +1,51 @@
+// JAVA Enumeration //
 
-// Java Enums
-enum Info {
-    NAME,
-    CLASS,
-    SCORE,
-    SUBJECT,
+// enum Info{
+//     NAME,
+//     CLASS,
+//     SCORE,
+//     SUBJECT
+// }
+
+// Info class = Info.CLASS;
+
+// public class Enums{
+//     enum Info{
+//         PELUMI,
+//         LEVEL5,
+//         SCORE100,
+//         JAVA
+//     }
+
+//     public static void main(String[] args){
+//         Info myName = Info.LEVEL5;
+//         System.out.println(myName);
+//     }
+// }
+
+enum Period {
+    MORNING,
+    AFTERNOON,
+    EVENING,
+    NIGHT,
+    MIDNIGHT
 }
 
-// INFO class = Info.CLASS
-
-public class ENUM {
-    enum Info {
-        VICKYDEV,
-        SS1,
-        SCORE98,
-        JAVA,
-    }
-
+public class ENUM {''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''fvv
     public static void main(String[] args) {
-        Info myclass = Info.SS1;
-        System.out.println(myclass);
-
+        Period per = Period.MORNING;
+        switch ((per)) {
+            case MORNING:
+                System.out.println("Wake up and prepared for School");
+                break;
+            case AFTERNOON:
+                System.out.println("I wanna take you for Launch");
+                break;
+            case EVENING:
+                System.out.println("Return home before its get dark");
+                break;
+            default:
+                break;
+        }
     }
-
 }
